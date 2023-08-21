@@ -1,0 +1,16 @@
+- ReadEmployeeData : O(n) / n is the number of lines in employee_data file.
+- SaveData: O(n) / n is the number of employees in the declared variable employee_data.
+- user_login: O(n) / n is the number of employees in the declared variable employee_data.
+- DisplayUserMenu: O(1) / static printing function.
+- SaveLoginTime: O(1) / static write function.
+- getCurrentTime: O(1) / basic call.
+- mainUser: O(n) / depend on user_login.
+- DisplayAdminMenu: O(n) / n is the number of tries.
+- DisplayStatistics: O(n) / n is the number of employees in the declared variable employee_data.
+- AddEmployee: O(1) / basic line insert.
+- DisplayAll: O(nlogn) / n is the number of employees in the declared variable employee_data, and logn for sorting.
+- ChangeSalary: O(n) / n is the number of employees in the declared variable employee_data.
+- Remove: O(1) / basic line remove.
+- Raise: O(n) / n is the number of employees in the declared variable employee_data.
+- getCurrentTime: O(1).
+- main: O(n) / which depends on mainUser function.
